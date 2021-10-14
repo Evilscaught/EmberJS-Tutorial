@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,300italic,400,700,700italic);
+
+/**
+ * Base Elements
+ */
+
+ /* Asterik is a wildcard, apply the style to all elements on the D.O.M. */
+ /* i.e. `span *` {} would apply styling to all elements in the span element */
+ * {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+span,
+a,
+button {
+  font-family: 'Lato', 'Open Sans', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  background: #f3f3f3;
+}
+
+.tomster {
+  background: url('images/teaching-tomster.png');
+}
