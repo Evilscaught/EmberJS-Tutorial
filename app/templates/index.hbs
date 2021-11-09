@@ -4,15 +4,14 @@
   <Jumbo>
     <h2>Welcome to Super Rentals!</h2>
     <p>We hope you find exactly what you're looking for in a place to stay.</p>
-    <LinkTo @route="about" class="button">About Us</LinkTo>
+    <LinkTo @route="about" class="button">About</LinkTo>
   </Jumbo>
 </div>
 
-{{!-- Could this be modularized into a list? The list would require that you pass in two arguments, what to list, and how many times? --}}
 <div class="rentals">
   <ul class="results">
-    <li><Rental /></li>
-    <li><Rental /></li>
-    <li><Rental /></li>
+  {{#each this.model as |listing|}}
+    <Rental @rental={{listing}} />
+  {{/each}}
   </ul>
 </div>

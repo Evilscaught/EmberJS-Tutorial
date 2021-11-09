@@ -16,13 +16,13 @@ const MAPBOX_API = `https://api.mapbox.com/styles/v1/mapbox/${MAPBOX_THEME[0]}/s
 export default class MapComponent extends Component {
   get token() {
     // It is important to URL-encode the token, just in case it contains any special characters that are not URL-safe.
-    return encodeURIComponent(ENV.MAP_ACCESS_TOKEN);
+    return encodeURIComponent(ENV.MAPBOX_ACCESS_TOKEN);
   }
 
   get src() {
     // All arguments that come from this.args are automatically marked as tracked by Ember
-    let { lon, lat, width, height, zoom } = this.args;
-    let coordinates = `${lon},${lat},${zoom}`;
+    let { lng, lat, width, height, zoom } = this.args;
+    let coordinates = `${lng},${lat},${zoom}`;
     let dimensions = `${width}x${height}`;
     let accessToken = `access_token=${this.token}`;
 
