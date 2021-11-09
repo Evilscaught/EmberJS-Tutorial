@@ -21,7 +21,7 @@
       "type": "rentals",
       "id": "urban-living",
       "attributes": {
-        "title": "Urban Living",
+        "title": "Saint Johns Building",
         "owner": "Mike Teavee",
         "city": "Seattle",
         "location": {
@@ -38,7 +38,7 @@
       "type": "rentals",
       "id": "downtown-charm",
       "attributes": {
-        "title": "Downtown Charm",
+        "title": "Austerlitz Building",
         "owner": "Violet Beauregarde",
         "city": "Portland",
         "location": {

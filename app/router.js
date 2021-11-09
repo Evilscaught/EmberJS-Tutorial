@@ -10,4 +10,5 @@ Router.map(function () {
   this.route('about', function () {});
   this.route('contact', { path: 'getting-in-touch' });
   this.route('http404', { path: '/*' });
+  this.route('rentals', { path: 'rentals/:rental_id' });
 });
