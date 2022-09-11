@@ -9,7 +9,7 @@ This repository is a reproduction of a starter Ember website created by followin
 You will need the following things properly installed on your computer.
 
 * [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with npm)
+* [Node.js](https://nodejs.org/) (with npm) [Specifically version 14.15.1]
 * [Ember CLI](https://ember-cli.com/)
 * [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
 
