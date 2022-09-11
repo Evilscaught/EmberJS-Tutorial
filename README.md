@@ -1,7 +1,6 @@
-# official-tutorial
+# Official EmberJS Tutorial
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This repository is a reproduction of a starter Ember website created by following the official EmberJS tutorial
 
 ## Prerequisites
 
@@ -10,7 +9,7 @@ You will need the following things properly installed on your computer.
 * [Git](https://git-scm.com/)
 * [Node.js](https://nodejs.org/) (with npm)
 * [Ember CLI](https://ember-cli.com/)
-* [Google Chrome](https://google.com/chrome/)
+* [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
 
 ## Installation
 
@@ -20,7 +19,7 @@ You will need the following things properly installed on your computer.
 
 ## Running / Development
 
-* `ember serve`
+* `npx ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 * Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
 
