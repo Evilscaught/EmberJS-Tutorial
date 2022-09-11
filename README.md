@@ -1,6 +1,8 @@
 # Official EmberJS Tutorial
 
-This repository is a reproduction of a starter Ember website created by following the official EmberJS tutorial
+This repository is a reproduction of a starter Ember website created by following the official EmberJS guides
+
+<img width="1280" alt="Screenshot 2022-09-11 at 3 12 15 PM" src="https://user-images.githubusercontent.com/24633494/189549565-dcf81580-72b4-42e2-91a7-ee610b3e8d85.png">
 
 ## Prerequisites
 
